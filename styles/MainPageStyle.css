@@ -1,0 +1,265 @@
+@font-face {
+    font-family: "Concert One";
+    src: url("../content/ConcertOne-Regular.ttf") format('truetype');
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-attachment: scroll;
+    background: linear-gradient(to bottom, #0c0d108F, #4b505eD0),url("../content/DarkConcrete2.png");
+    font-family: 'Concert One';
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.commentdeco {
+    text-align:center;
+    color: #48c43f;
+    font-size: 64px;
+}
+
+
+div.container {
+    text-align: center;
+}
+ul.DabblesWith {
+    display: inline-block;
+    text-align: left;
+    color: #48c43f;
+    font-size: 32px;
+    list-style-position: inside;
+    background-image: linear-gradient(to left, #7aef72, #3fc4b4);
+    background-size: 100%;
+    background-clip: revert;
+    -webkit-text-fill-color: transparent;
+    object-fit: cover;
+    -webkit-background-clip: text;
+}
+h2 {
+    text-align: center;
+    color: #48c43f;
+    font-size: 48px;
+}
+
+div.gamesContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: safe center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.IconsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: safe center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* as suggested by Matheus Avellar */
+    overflow: hidden;
+}
+div.YTIconsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: safe center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* as suggested by Matheus Avellar */
+    overflow: hidden;
+}
+.Icon {
+    transform: scale(.6);
+    transition: transform 150ms ease-in-out;
+}
+.Icon:hover {
+    transform: scale(.6) translateY(-5px) rotate(20deg);
+}
+
+ul.Horizontal{
+    list-style: none;
+}
+li.Horizontal {
+    display: inline-block;
+}
+div.BarContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    background-color: #555e7a;
+}
+html{
+    scroll-behavior:smooth;
+}
+p {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    font-size: 25px;
+    text-align: center;
+    color: #48c43f;
+    background-color:#3a5737;
+}
+/* Tooltip text */
+.right_tooltip .right_tooltiptext {
+    visibility: hidden;
+    width: 450px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    padding: 5px, 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+
+
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.right_tooltip:hover .right_tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.right_tooltip .right_tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+
+
+.left_tooltip .left_tooltiptext {
+    visibility: hidden;
+    width: 450px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    padding: 5px, 0;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    right: 25%;
+
+
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.left_tooltip:hover .left_tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.left_tooltip .left_tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%; /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+
+a {
+    color: #82fff0;
+}
+a:visited {
+    color: #82fff0;
+}
+a:hover{
+    color: #00c1a9;
+}
+a:visited:hover {
+    color: #00c1a9;
+}
+a:active {
+    color: #008978;
+}
+a:visited:active {
+    color: #008978;
+}
+
+
+a.bar {
+    background-color: #51ada2;
+    border: 5px solid #6accc0;
+    color: #ffffff;
+}
+
+a.bar:visited {
+    
+    color: #ffffff;
+}
+
+a.bar:hover {
+    color: #c4c4c4;
+}
+
+a.bar:visited:hover {
+    color: #c4c4c4;
+}
+
+a.bar:active {
+    color: #949494;
+}
+
+a.bar:visited:active {
+    color: #949494;
+}
+img.YouTubeImage {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.YouTubeHyperlink {
+    background-color: #22232f;
+    border-radius: 20px;
+    border: 5px solid;
+    border-color: #7b7c8f;
+    text-decoration: none;
+    color: #48c43f;
+    transform: scale(1);
+    transition: transform 150ms ease-in-out;
+}
+p.YT {
+    max-width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-self: center;
+    font-size: 25px;
+    text-align: center;
+    color: #48c43f;
+    background-color: #00000000;
+}
+
+a.YouTubeHyperlink:hover {
+    color: #48c43f;
+    transform: scale(.8) translateY(-5px) rotate(10deg);
+}
