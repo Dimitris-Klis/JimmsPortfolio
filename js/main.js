@@ -25,7 +25,7 @@ games.innerHTML = "";
 async function readTxt(name) {
     try {
         // Use a relative path from the root (JimmsPortfolio-main)
-        const baseUrl = '/content/GamePreviews/';
+        const baseUrl = 'https://dimitris-klis.github.io/JimmsPortfolio/content/GamePreviews/';
 
         const response = await fetch(`${baseUrl}${txtShortcut}${name}.txt`);
 
