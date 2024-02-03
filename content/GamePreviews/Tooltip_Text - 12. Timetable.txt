@@ -1,0 +1,18 @@
+School Timetable:<br />
+The School Timetable Program began development during the final year of Middle School.
+<br />
+<br />
+At first, there was only an android version that existed only on my phone. Its features included: making timetables,
+editing their cells, saving, loading and copying/pasting boards. It also displayed in how much time the next lesson or break would begin.
+<br />
+<br />
+School start times, lesson lengths & break lengths were all hardcoded. The only language was Greek.
+<br />
+<br />
+During the second semester, more features were added, like keeping track of lost lessons and note writing.
+<br />
+<br />
+This program has been finalized, localized and uploaded to itch.io for Windows & Android during the beginning of the first year of High School.
+<br />
+<br />
+<a href="https://jimm560.itch.io/school-timetable" target="_blank">itch.io: School Timetable</a>

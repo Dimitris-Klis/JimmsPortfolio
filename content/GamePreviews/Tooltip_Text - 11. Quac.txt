@@ -1,0 +1,21 @@
+Quac's Bakefull Delivery:
+<br />
+One of the most simple but fun games I've made. A submission for the Game Maker's Toolkit Game Jam of 2023.
+You play as a duck, who has a bakery and gives bread to people.
+<br />
+<br />
+This is a pretty good interpretation of the theme "Roles Reversed".
+I've made the music, most of the sounds and the graphics, like always.
+<br />
+<br />
+My biggest mistake was using the "Long Term Support" Unity version 2022.3.4f1.
+This version has a very weird bug when the game is built:
+The canvas will be bigger than your screen and to fix this, you need to reload the scene.
+<br />
+<br />
+This bug alone has caused me great pain and because of a few other bugs,
+I sticked to using the unity version 2021.3.6f1 for my next couple projects.
+I've recently switched to the recommended version (2022.3.16f1) since 'Neverend Lands'.
+<br />
+<br />
+<a href="https://jimm560.itch.io/quac" target="_blank">itch.io: Quac's Bakefull Delivery</a>

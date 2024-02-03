@@ -1,0 +1,15 @@
+Conventional Combat... NOT!:
+<br />
+This game started production 5 days after the Game Maker's Toolkit Game Jam of 2021.
+It is a submission for the Mashup Game Jam 2.
+<br />
+<br />
+You have a saw attached to your player, which is a unique way of attacking enemies.
+This game is quite fun, but there are some bugs that ruin the gameplay.
+<br />
+<br />
+You can't die when your health drops to 0, and the shooting enemies are very buggy.
+
+<br />
+<br />
+<a href="https://jimm560.itch.io/unconventional-combat" target="_blank">itch.io: Conventional Combat... NOT!</a>

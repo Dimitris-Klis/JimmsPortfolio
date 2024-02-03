@@ -1,0 +1,15 @@
+Framecam:
+<br />
+Framecam was made to test whether I could make a program that changes images according to the microphone volume.
+So basically, a simplified VTuber program.
+<br />
+<br />
+I did manage to get it to work, but I believe that it's no longer functional.
+Maybe version 1.0 still is. This is an incredibly buggy program.
+<br />
+<br />
+Funnily enough, I found a way better free program that does exactly this in September of 2023,
+though I am no longer interested.
+<br />
+<br />
+<a href="https://jimm560.itch.io/framecam" target="_blank">itch.io: Framecam</a>

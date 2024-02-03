@@ -1,0 +1,26 @@
+Neverend Lands:<br />
+I made this for the pirate software game jam, though I started working on it before that.
+In this game, your goal is to beat 3 neverend events: Nights of infinite length where a few waves of enemies will spawn.
+<br />
+<br />
+I did all the music, sounds, UI and programming by myself, 
+apart from the noises you hear in the background during the day and night.
+        
+<br />
+<br />
+Before this game, I made
+a new Inventory System and released it to <a href="https://github.com/Dimitris-Klis/UnityInventoryPack" target="_blank">github.com</a>.
+It's a huge improvement in comparison to my first inventory system introduced in Boat Duty.
+I used that for the game, after fixing a couple bugs that slipped in.
+I also used a pathfinding algorithm for the enemies made by <a href="https://github.com/LostTrainDude/astar-pathfinding-unity">LostTrainDude</a>
+<br />
+<br />
+I even made a couple devlogs for the game and the first one got 200+ views!
+<br />
+<br />
+This is one of my biggest projects yet, due to the complex mechanics I added, like building, destroying, and storing items.
+Another challenge was creating a game design document for the game 2 hours before the end of the jam. Keep in mind that Jam
+ended at 4AM EEST. The last time I had to pull an all nighter like this was with 'Boat Duty'.
+<br />
+<br />
+<a href="https://jimm560.itch.io/neverend-lands" target="_blank">itch.io: Neverend Lands</a>
