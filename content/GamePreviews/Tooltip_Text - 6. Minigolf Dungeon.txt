@@ -7,7 +7,10 @@ Was finished for a long time but I only uploaded it to itch.io after the release
 The level is procedurally generated. Different rooms & different obstacles every single time. There is no end goal, apart from getting the golf ball in the hole.
 <br />
 <br />
-There are also time based & stroke based scores. There is one bug in this game: The minimap displays blocked off entries to rooms.
+There are also time based & stroke based scores. In April 6th, 2024 I randomly decided to fix the few bugs the game had and released v1.1. 
+<br />
+<br />
+You can find the patch notes in the game's store page.
 <br />
 <br />
 <a href="https://jimm560.itch.io/mini-golf-dungeon" target="_blank">itch.io: Mini Golf Dungeon</a>
