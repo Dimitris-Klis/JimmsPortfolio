@@ -20,7 +20,10 @@ let LeftTooltipTextSpan = '<span class="left_tooltiptext">'
 var games = document.getElementById("myGames");
 let txtShortcut = "Tooltip_Text - ";
 var CurrentDescription = "";
-games.innerHTML = "";
+games.innerHTML = `
+        <br>
+        <h1 class="commentdeco">Games &amp; Projects</h1>
+        <h2>Hold on, they're loading!</h2>`;
 
 async function readTxt(name) {
     try {
@@ -213,7 +216,7 @@ function FinishSetup() {
         }
     }
     FullString += `${EndDiv}<br>`;
-
+    games.innerHTML = "";
     games.innerHTML += FullString;
 }
 Setup();
