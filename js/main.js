@@ -1,5 +1,4 @@
-class Project
-{
+class Project {
     //Types: Latest, Horror, GameJams, Personal, Buggy
     constructor(name, ProjectType, tooltipText, image, left) {
         this.name = name;
@@ -10,7 +9,7 @@ class Project
     }
 }
 let PROJECTS = [];
-let gamesContainerDiv = '<div class="gamesContainer">';
+let gamesContainerDiv = '<center><div class="gamesContainer">';
 let EndDiv = '</div>';
 let EndSpan = '</span>';
 let RightTooltipDiv = '<div class="right_tooltip">'
@@ -28,7 +27,7 @@ games.innerHTML = `
 async function readTxt(name) {
     try {
         // Use a relative path from the root (JimmsPortfolio-main)
-        const baseUrl = '/JimmsPortfolio/content/GamePreviews/';
+        const baseUrl = '/content/GamePreviews/';
 
         const response = await fetch(`${baseUrl}${txtShortcut}${name}.txt`);
 
@@ -58,10 +57,10 @@ async function addProject(_name, _projectType, _txtName, _Image, _Left) {
     }
 }
 async function Setup() {
-    try
-    {
+    try {
         //Latest Project
-        await addProject("Neverend Lands", "Latest", "14. Neverend Lands", "Game_Preview - 14. Neverend Lands.png", false);
+        await addProject("SNAB", "Latest", "15. SNAB Remastered", "Game_Preview - 15. SNAB Remastered.png", false);
+        
 
         //Horror
         await addProject("Downfall", "Horror", "8. Downfall", "Game_Preview - 8. Downfall.png", false);
@@ -74,6 +73,7 @@ async function Setup() {
         await addProject("Boat Duty", "GameJams", "5. Boat Duty", "Game_Preview - 5. Boat Duty.png", false);
         await addProject("Roll of Luck", "GameJams", "7. Roll of Luck", "Game_Preview - 7. Roll of Luck.png", false);
         await addProject("Quac's Breadfull Delivery", "GameJams", "11. Quac", "Game_Preview - 11. Quac.png", true);
+        await addProject("Neverend Lands", "GameJams", "14. Neverend Lands", "Game_Preview - 14. Neverend Lands.png", false);
 
         //Personal Projects
         await addProject("Pillow Battle", "Personal", "9. Pillow Battle", "Game_Preview - 9. Pillow Battle.png", false);
@@ -88,8 +88,7 @@ async function Setup() {
         // Perform the next action
         FinishSetup();
     }
-    catch (error)
-    {
+    catch (error) {
         console.error(error.message);
     }
 }
@@ -123,7 +122,7 @@ function FinishSetup() {
             FullString += EndDiv;
         }
     }
-    FullString += `${EndDiv}<br><h2>My "horror" games:</h2>${gamesContainerDiv}`;
+    FullString += `${EndDiv}</center><br><h2>My "horror" games:</h2>${gamesContainerDiv}`;
     for (let i = 0; i < PROJECTS.length; i++) {
         if (PROJECTS[i].ProjectType == "Horror") {
             // Log the tooltipText of the first project in the array
@@ -146,7 +145,7 @@ function FinishSetup() {
             FullString += EndDiv;
         }
     }
-    FullString += `${EndDiv}<br><h2>Game Jams, Competitions:</h2>${gamesContainerDiv}`;
+    FullString += `${EndDiv}</center><br><h2>Game Jams, Competitions:</h2>${gamesContainerDiv}`;
     for (let i = 0; i < PROJECTS.length; i++) {
         if (PROJECTS[i].ProjectType == "GameJams") {
             // Log the tooltipText of the first project in the array
@@ -169,7 +168,7 @@ function FinishSetup() {
             FullString += EndDiv;
         }
     }
-    FullString += `${EndDiv}<br><h2>Personal Projects:</h2>${gamesContainerDiv}`;
+    FullString += `${EndDiv}</center><br><h2>Personal Projects:</h2>${gamesContainerDiv}`;
     for (let i = 0; i < PROJECTS.length; i++) {
         if (PROJECTS[i].ProjectType == "Personal") {
             // Log the tooltipText of the first project in the array
@@ -192,7 +191,7 @@ function FinishSetup() {
             FullString += EndDiv;
         }
     }
-    FullString += `${EndDiv}<br><h2>Buggy Messes:</h2>${gamesContainerDiv}`;
+    FullString += `${EndDiv}</center><br><h2>Buggy Messes:</h2>${gamesContainerDiv}`;
     for (let i = 0; i < PROJECTS.length; i++) {
         if (PROJECTS[i].ProjectType == "Buggy") {
             // Log the tooltipText of the first project in the array
@@ -215,7 +214,7 @@ function FinishSetup() {
             FullString += EndDiv;
         }
     }
-    FullString += `${EndDiv}<br>`;
+    FullString += `${EndDiv}</center><br>`;
     games.innerHTML = "";
     games.innerHTML += FullString;
 }
