@@ -179,7 +179,7 @@ ul ul {
     /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
-    right:105%;
+    right:100%;
     opacity: 0;
     transition: opacity 0.25s;
 }
