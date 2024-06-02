@@ -12,7 +12,7 @@ I also playtested the game with a couple friends. I wanted to ensure that almost
 I made a devlog for the game but it didn't really gain an audience.
 <br />
 <br />
-This is one of my most polished games. I am very happy with the results so I hope people actually find it.
+This is one of my most polished games. I am very happy with the results so I hope people actually find it. Two days after release I released v1.0.1 along with a mobile port of the game.
 <br />
 <br />
 <a href="https://jimm560.itch.io/snab-remastered" target="_blank">itch.io: SNAB Remastered</a><br />
