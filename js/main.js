@@ -81,7 +81,7 @@ async function Setup() {
         await addProject("School Timetable", "Personal", "12. Timetable", "Game_Preview - 12. Timetable.png", false);
         await addProject("8-Bit Blackjack", "Personal", "13. Blackjack", "Game_Preview - 13. Blackjack.png", true);
 
-        //Job Experience
+        //Work Experience
         await addProject("Subscription UI Editor", "Work", "Work - 01. Sub UI Editor", "Work_Preview - 01. Sub UI Editor.png", false);
 
         //Buggy Messes

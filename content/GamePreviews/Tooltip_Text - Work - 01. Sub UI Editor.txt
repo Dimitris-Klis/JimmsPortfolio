@@ -1,19 +1,21 @@
-SNAB Remastered:<br />
-After a failed attempt at remastering the original project, I decided to start anew. The mechanics ended up quite polished and the audio is much nicer.
+Subscription UI Editor:<br />
+I've obtained some work experience at <a href="https://www.machapp.net/">MACHAPP Sotftware</a>, a mobile application company.
 <br />
 <br />
-I did all the music, sounds, UI, 3D models and programming by myself. I even voiced the voicelines.
+At MACHAPP I made a simple UI Editor program which enabled them to modify the subscription page of a 
+weather application they published.
 <br />
 <br />
-I also playtested the game with a couple friends. I wanted to ensure that almost no bugs would be present in the final release.
+Any changes made to the UI are shown to you in realtime. 
+You can also import and export your changes as a .json for use in the actual app.
 
 <br />
 <br />
-I made a devlog for the game but it didn't really gain an audience.
+Thanks to this job, I've learned how to use <a href="https://bitbucket.org/">Bitbucket</a> and <a href="https://www.sourcetreeapp.com/">Sourcetree</a>.
 <br />
 <br />
-This is one of my most polished games. I am very happy with the results so I hope people actually find it. Two days after release I released v1.0.1 along with a mobile port of the game.
+In general, I've learned the basics of version control and git repositories, important aspects of software development 
+if you want to work in a team or quickly revert to previous versions of your project.
 <br />
 <br />
-<a href="https://jimm560.itch.io/snab-remastered" target="_blank">itch.io: SNAB Remastered</a><br />
-<a href="https://gamejolt.com/games/SNAB-Remastered/899821" target="_blank">Game Jolt: SNAB Remastered</a>
+I've also obtained experience in winforms (which was what I used to make the program).
