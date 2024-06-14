@@ -1,5 +1,5 @@
 class Project {
-    //Types: Latest, Horror, GameJams, Personal, Buggy
+    //Types: Latest, Horror, GameJams, Personal, Work, Buggy
     constructor(name, ProjectType, tooltipText, image, left) {
         this.name = name;
         this.ProjectType = ProjectType;
@@ -27,7 +27,7 @@ games.innerHTML = `
 async function readTxt(name) {
     try {
         // Use a relative path from the root (JimmsPortfolio-main)
-        const baseUrl = '/JimmsPortfolio/content/GamePreviews/';
+        const baseUrl = location.hostname === "localhost" ? './content/GamePreviews/' : '/JimmsPortfolio/content/GamePreviews/';
 
         const response = await fetch(`${baseUrl}${txtShortcut}${name}.txt`);
 
@@ -63,27 +63,30 @@ async function Setup() {
         
 
         //Horror
-        await addProject("Downfall", "Horror", "8. Downfall", "Game_Preview - 8. Downfall.png", false);
+        await addProject("Downfall", "Horror", "08. Downfall", "Game_Preview - 08. Downfall.png", false);
         await addProject("SNAB", "Horror", "10. Boomclub", "Game_Preview - 10. Boomclub.png", false);
 
 
         //Game Jams, Competitions
-        await addProject("Slimslime", "GameJams", "1. Slimslime", "Game_Preview - 1. Slimslime.png", false);
-        await addProject("Unconventional Combat", "GameJams", "3. Unconventional Combat", "Game_Preview - 3. Unconventional Combat.png", false);
-        await addProject("Boat Duty", "GameJams", "5. Boat Duty", "Game_Preview - 5. Boat Duty.png", false);
-        await addProject("Roll of Luck", "GameJams", "7. Roll of Luck", "Game_Preview - 7. Roll of Luck.png", false);
+        await addProject("Slimslime", "GameJams", "01. Slimslime", "Game_Preview - 01. Slimslime.png", false);
+        await addProject("Unconventional Combat", "GameJams", "03. Unconventional Combat", "Game_Preview - 03. Unconventional Combat.png", false);
+        await addProject("Boat Duty", "GameJams", "05. Boat Duty", "Game_Preview - 05. Boat Duty.png", false);
+        await addProject("Roll of Luck", "GameJams", "07. Roll of Luck", "Game_Preview - 07. Roll of Luck.png", false);
         await addProject("Quac's Breadfull Delivery", "GameJams", "11. Quac", "Game_Preview - 11. Quac.png", true);
         await addProject("Neverend Lands", "GameJams", "14. Neverend Lands", "Game_Preview - 14. Neverend Lands.png", false);
 
         //Personal Projects
-        await addProject("Pillow Battle", "Personal", "9. Pillow Battle", "Game_Preview - 9. Pillow Battle.png", false);
-        await addProject("Minigolf Dungeon", "Personal", "6. Minigolf Dungeon", "Game_Preview - 6. Minigolf Dungeon.png", false);
+        await addProject("Pillow Battle", "Personal", "09. Pillow Battle", "Game_Preview - 09. Pillow Battle.png", false);
+        await addProject("Minigolf Dungeon", "Personal", "06. Minigolf Dungeon", "Game_Preview - 06. Minigolf Dungeon.png", false);
         await addProject("School Timetable", "Personal", "12. Timetable", "Game_Preview - 12. Timetable.png", false);
         await addProject("8-Bit Blackjack", "Personal", "13. Blackjack", "Game_Preview - 13. Blackjack.png", true);
 
+        //Job Experience
+        await addProject("Subscription UI Editor", "Work", "Work - 01. Sub UI Editor", "Work_Preview - 01. Sub UI Editor.png", false);
+
         //Buggy Messes
-        await addProject("Sawing Connection", "Buggy", "2. Sawing Connection", "Game_Preview - 2. Sawing Connection.png", false);
-        await addProject("Framecam", "Buggy", "4. Framecam", "Game_Preview - 4. Framecam.png", false);
+        await addProject("Sawing Connection", "Buggy", "02. Sawing Connection", "Game_Preview - 02. Sawing Connection.png", false);
+        await addProject("Framecam", "Buggy", "04. Framecam", "Game_Preview - 04. Framecam.png", false);
 
         // Perform the next action
         FinishSetup();
@@ -171,6 +174,29 @@ function FinishSetup() {
     FullString += `${EndDiv}</center><br><h2>Personal Projects:</h2>${gamesContainerDiv}`;
     for (let i = 0; i < PROJECTS.length; i++) {
         if (PROJECTS[i].ProjectType == "Personal") {
+            // Log the tooltipText of the first project in the array
+            //console.log(PROJECTS[i].tooltipText);
+            if (PROJECTS[i].left == true) {
+                FullString += LeftTooltipDiv
+            }
+            else {
+                FullString += RightTooltipDiv
+            }
+            FullString += `<img src="content/GamePreviews/${PROJECTS[i].image}" />`;
+            if (PROJECTS[i].left == true) {
+                FullString += LeftTooltipTextSpan
+            }
+            else {
+                FullString += RightTooltipTextSpan
+            }
+            FullString += PROJECTS[i].tooltipText;
+            FullString += EndSpan;
+            FullString += EndDiv;
+        }
+    }
+    FullString += `${EndDiv}</center><br><h2>Work Experience:</h2>${gamesContainerDiv}`;
+    for (let i = 0; i < PROJECTS.length; i++) {
+        if (PROJECTS[i].ProjectType == "Work") {
             // Log the tooltipText of the first project in the array
             //console.log(PROJECTS[i].tooltipText);
             if (PROJECTS[i].left == true) {

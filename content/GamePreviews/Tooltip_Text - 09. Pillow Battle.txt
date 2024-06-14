@@ -1,0 +1,18 @@
+Pillow Battle!:
+<br>
+This game started as an idea in my coding notebook; A first person shooter battle royale game with the twist of everything being sleep related.
+<br>
+<br>
+I used the free version of photon for this game, so Battle Royale was not an option. I was forced to make this a team deathmatch game.
+<br>
+<br>
+This is my first and only online game so far. Photon is an incredible free online package, but it's complicated (since online play is also complicated)
+and it was quite painful for me to finish this game.
+This is a cool game to play with friends, but no one plays it unfortunately.
+<br>
+<br>
+ It's also not very polished. I would put it on the 'Buggy Messes' area, but
+it's one of my favourite personal projects as I definetely had fun while making it.
+<br>
+<br>
+<a href="https://jimm560.itch.io/pillow-battle" target="_blank">itch.io: Pillow Battle!</a>

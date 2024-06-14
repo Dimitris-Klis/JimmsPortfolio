@@ -1,0 +1,17 @@
+A Roll Of Luck:
+<br />
+This game is a submission for the Game Maker's Toolkit Game Jam 2022.
+<br />
+<br />
+Originally meant to be a board game, that idea was quickly scrapped during the final day,
+and it quickly became a top down shooter.
+The unique mechanic here is:
+every time you collect ammo, you get a random gun.
+<br />
+<br />
+A Roll Of Luck was submitted 14 minutes before the end of the jam.
+The menu was made 1 or 2 weeks ago to save time.
+The music was made by me months ago and I repurposed it for the game.
+<br />
+<br />
+<a href="https://jimm560.itch.io/roll-of-luck" target="_blank">itch.io: A Roll Of Luck</a>

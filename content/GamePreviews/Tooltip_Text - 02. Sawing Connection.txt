@@ -1,0 +1,18 @@
+A Sawing Connection:
+<br />
+My first attempt at a 2 day game jam. This was a submission for the Game Maker's Toolkit Game Jam of 2021.
+<br />
+<br />
+The theme was chained together, so I made a player with a mace attached to them. Your goal is to reach the end.
+I also had a simple form of adaptive music.
+<br />
+<br />
+The only problem is: The level design sucks. Also, performance affects
+the physics, so the slower the computer, the less likely you are to win.
+<br />
+<br />
+The menu is horribly rushed.
+
+<br />
+<br />
+<a href="https://jimm560.itch.io/joined-together" target="_blank">itch.io: A Sawing Connection</a>
