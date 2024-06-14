@@ -18,4 +18,6 @@ In general, I've learned the basics of version control and git repositories, imp
 if you want to work in a team or quickly revert to previous versions of your project.
 <br />
 <br />
-I've also obtained experience in winforms (which was what I used to make the program).
+I've also obtained experience in winforms 
+<br />
+(which was what I used to make the program).
