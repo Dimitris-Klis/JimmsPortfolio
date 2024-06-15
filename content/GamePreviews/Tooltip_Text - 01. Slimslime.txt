@@ -1,4 +1,4 @@
-Slimsline:
+Slimslime:
 <br />
 Slimslime is the first game I've made & published to itch.io as a submission for the Brackeys Game Jam 2021.1.
 It's a small platformer with one unique mechanic: The player can change size.
