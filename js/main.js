@@ -65,7 +65,7 @@ async function Setup() {
         //Horror
         await addProject("Downfall", "Horror", "08. Downfall", "Game_Preview - 08. Downfall.png", false);
         await addProject("SNAB Classic", "Horror", "10. Boomclub", "Game_Preview - 10. Boomclub.png", false);
-        await addProject("SNAB", "Horror", "15. SNAB Remastered", "Game_Preview - 15. SNAB Remastered.png", false);
+        await addProject("SNAB", "Horror", "15. SNAB Remastered", "Game_Preview - 15. SNAB Remastered.png", true);
 
         //Game Jams, Competitions
         await addProject("Slimslime", "GameJams", "01. Slimslime", "Game_Preview - 01. Slimslime.png", false);
