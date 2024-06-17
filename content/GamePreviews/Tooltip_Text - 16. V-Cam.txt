@@ -1,0 +1,16 @@
+V-Cam:
+<br />
+2 years after Framecam's release, I decided to make an entirely new project called V-Cam.
+This time, almost no bugs are present and it's easier to use.
+<br />
+<br />
+This project took me about 1 and a half days to make, which was pretty quick.
+<br />
+<br />
+Despite better free programs being out there, I wanted to make my own simplified version.
+<br />
+<br />
+Something I've discovered when making this program is that Unity has very bad Microphone implementation.
+<br />
+<br />
+<a href="https://jimm560.itch.io/v-cam" target="_blank">itch.io: V-Cam</a>

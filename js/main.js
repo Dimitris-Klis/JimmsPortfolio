@@ -59,13 +59,13 @@ async function addProject(_name, _projectType, _txtName, _Image, _Left) {
 async function Setup() {
     try {
         //Latest Project
-        await addProject("SNAB", "Latest", "15. SNAB Remastered", "Game_Preview - 15. SNAB Remastered.png", false);
+        await addProject("V-Cam", "Latest", "16. V-Cam", "Game_Preview - 16. V-Cam.png", false);
         
 
         //Horror
         await addProject("Downfall", "Horror", "08. Downfall", "Game_Preview - 08. Downfall.png", false);
-        await addProject("SNAB", "Horror", "10. Boomclub", "Game_Preview - 10. Boomclub.png", false);
-
+        await addProject("SNAB Classic", "Horror", "10. Boomclub", "Game_Preview - 10. Boomclub.png", false);
+        await addProject("SNAB", "Horror", "15. SNAB Remastered", "Game_Preview - 15. SNAB Remastered.png", false);
 
         //Game Jams, Competitions
         await addProject("Slimslime", "GameJams", "01. Slimslime", "Game_Preview - 01. Slimslime.png", false);
