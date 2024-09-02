@@ -12,17 +12,18 @@ Your goal was to use the trash in said lake to make 3 things: A Radio Tower, a T
 <br />
 <br />
 I was the person who did most of the work, since the others didn't know much about programming or music production.
-However, one of three teammates was extremely helpful during the final day before the submission of the project.
+However, one of four teammates was extremely helpful during the final day before the submission of the project.
 He made the final 3D models for the game. I managed to make my first inventory system with this game, although it's not the best.
 <br />
 <br />
 Despite a lot of procrastination, and a couple of serious bugs, we managed to make it to Phase 2. We quickly found out why:
-The majority of the contestants that made it to phase 2 made their games in scratch (They could be made in less than a week).
-In fact, our game could compete with the other age groups.
+The majority of the contestants that made it to phase 2 made some pretty simple games which lacked polish. A reminder that these were the contestants who made it to phase 2.
+Our game was so good in comparison, that it could compete with the other age groups.
 <br />
 <br />
-Unfortunately, due to age discrimination, we were placed third, right under another bad scratch game. I have no idea what has happened to this
-yearly competition, because it's been gone since its end in 2022.
+Because such talent is rare in Cyprus, the judges doubted our abilities and we were placed third, 
+right under a badly made scratch game.
+Even if I can't fight age discrimination, I'd really want to go again, though the competion has been gone since 2022.
 <br />
 <br />
 <a href="https://jimm560.itch.io/boat-duty" target="_blank">itch.io: Boat Duty!</a>

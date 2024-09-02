@@ -59,7 +59,7 @@ async function addProject(_name, _projectType, _txtName, _Image, _Left) {
 async function Setup() {
     try {
         //Latest Project
-        await addProject("V-Cam", "Latest", "16. V-Cam", "Game_Preview - 16. V-Cam.png", false);
+        await addProject("Typeytext", "Latest", "17. Typeytext", "Game_Preview - 17. Typeytext.png", false);
         
 
         //Horror
@@ -80,9 +80,13 @@ async function Setup() {
         await addProject("Minigolf Dungeon", "Personal", "06. Minigolf Dungeon", "Game_Preview - 06. Minigolf Dungeon.png", false);
         await addProject("School Timetable", "Personal", "12. Timetable", "Game_Preview - 12. Timetable.png", false);
         await addProject("8-Bit Blackjack", "Personal", "13. Blackjack", "Game_Preview - 13. Blackjack.png", true);
-
+        await addProject("V-Cam", "Personal", "16. V-Cam", "Game_Preview - 16. V-Cam.png", true);
         //Work Experience
         await addProject("Subscription UI Editor", "Work", "Work - 01. Sub UI Editor", "Work_Preview - 01. Sub UI Editor.png", false);
+
+        //Github Repos
+        await addProject("My Localization System (for Unity)", "Repo", "Repo - 01. Localization", "Repo_Preview - 01. Localization.png", false);
+        await addProject("My Achievement System (for Unity)", "Repo", "Repo - 02. Achievements", "Repo_Preview - 02. Achievements.png", false);
 
         //Buggy Messes
         await addProject("Sawing Connection", "Buggy", "02. Sawing Connection", "Game_Preview - 02. Sawing Connection.png", false);
@@ -197,6 +201,29 @@ function FinishSetup() {
     FullString += `${EndDiv}</center><br><h2>Work Experience:</h2>${gamesContainerDiv}`;
     for (let i = 0; i < PROJECTS.length; i++) {
         if (PROJECTS[i].ProjectType == "Work") {
+            // Log the tooltipText of the first project in the array
+            //console.log(PROJECTS[i].tooltipText);
+            if (PROJECTS[i].left == true) {
+                FullString += LeftTooltipDiv
+            }
+            else {
+                FullString += RightTooltipDiv
+            }
+            FullString += `<img src="content/GamePreviews/${PROJECTS[i].image}" />`;
+            if (PROJECTS[i].left == true) {
+                FullString += LeftTooltipTextSpan
+            }
+            else {
+                FullString += RightTooltipTextSpan
+            }
+            FullString += PROJECTS[i].tooltipText;
+            FullString += EndSpan;
+            FullString += EndDiv;
+        }
+    }
+    FullString += `${EndDiv}</center><br><h2>Github Repositories:</h2>${gamesContainerDiv}`;
+    for (let i = 0; i < PROJECTS.length; i++) {
+        if (PROJECTS[i].ProjectType == "Repo") {
             // Log the tooltipText of the first project in the array
             //console.log(PROJECTS[i].tooltipText);
             if (PROJECTS[i].left == true) {

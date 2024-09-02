@@ -1,0 +1,8 @@
+My Achievement System:<br />
+I got inspired by <a href="https://store.steampowered.com/" target="_blank">Steam</a>'s achievement popup and decided to make an entire achievement system.
+<br />
+<br />
+This is going to be especially useful if I ever manage to release a game with a slightly bigger scope than usual.
+<br />
+<br />
+<a href="https://github.com/Dimitris-Klis/Jimms-Achievement-System" target="_blank">GitHub: Jimm's Localization System</a>

@@ -1,0 +1,20 @@
+Typeytext:
+<br />
+Typeytext is a game where you type the words on the screen, kind of like <a href="https://monkeytype.com/" target="_blank">monkeytype</a>.
+Since it's such a simple concept, I was able to polish it <i>a lot</i>.
+<br />
+<br />
+I decided to make this simple game to help boost morale, since I've failed:
+<ol>
+	<li>The 15th Pirate Software Game Jam</li>
+	<li>The GMTK Game Jam of 2024</li>
+	<li>A big project I was working on</li>
+</ol>
+
+I've also made some nice sounds & music for the game.
+<br />
+<br />
+This project took me about 2 days to make. It's not my most creative work but I'm proud of it nonetheless.
+<br />
+<br />
+<a href="https://jimm560.itch.io/typeytext" target="_blank">itch.io: Typeytext</a>

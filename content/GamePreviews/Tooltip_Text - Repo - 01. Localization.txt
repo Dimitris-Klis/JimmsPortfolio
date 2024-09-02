@@ -1,0 +1,16 @@
+My Localization System:<br />
+I made this to prove to myself that I can make stuff without the use of AI.
+<br />
+<br />
+Before this, I had used <a href="https://openai.com/index/chatgpt/" target="_blank">ChatGPT</a> to make a localization script for a game I was working on. I continued using ChatGPT for 2 years until
+I decided to ditch it altogether for 3 reasons:
+<ol>
+	<li>It takes the same amount of time to write the code myself.</li>
+	<li>Forcing AI to solve your problems = not learning new stuff (usually)</li>
+	<li>AI dramatically increased my Impostor Syndrome</li>
+</ol>
+And to prove that I don't need it, I made this new and improved localization system.
+It's a project I'm truly proud of since 100% of it is made by me.
+<br />
+<br />
+<a href="https://github.com/Dimitris-Klis/Jimms-Localization-System"  target="_blank">GitHub: Jimm's Localization System</a>
