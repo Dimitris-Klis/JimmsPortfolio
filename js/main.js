@@ -90,6 +90,9 @@ async function Setup() {
         await addProject("My Localization System (for Unity)", "Repo", "Repo - 01. Localization", "Repo_Preview - 01. Localization.png");
         await addProject("My Achievement System (for Unity)", "Repo", "Repo - 02. Achievements", "Repo_Preview - 02. Achievements.png");
 
+        //Websites
+        await addProject("The Portfolio", "Web", "Web - 01. The Portfolio", "Web_Preview - 01. The Portfolio.png");
+
         //Buggy Messes
         await addProject("Sawing Connection", "Buggy", "02. Sawing Connection", "Game_Preview - 02. Sawing Connection.png");
         await addProject("Framecam", "Buggy", "04. Framecam", "Game_Preview - 04. Framecam.png");
@@ -213,6 +216,26 @@ function FinishSetup() {
     FullString += `${EndDiv}</center><br><h2>GitHub Repositories:</h2>${gamesContainerDiv}`;
     for (let i = 0; i < PROJECTS.length; i++) {
         if (PROJECTS[i].ProjectType == "Repo") {
+            // Log the tooltipText of the first project in the array
+            //console.log(PROJECTS[i].tooltipText);
+            FullString += TooltipDiv
+            FullString += `<img src="content/GamePreviews/${PROJECTS[i].image}" />`;
+
+
+            FullString += RightTooltipTextSpan
+
+
+            FullString += PROJECTS[i].tooltipText;
+            FullString += EndSpan;
+            FullString += EndDiv;
+
+            tooltipIndex++;
+            RefreshTooltipTemplates();
+        }
+    }
+    FullString += `${EndDiv}</center><br><h2>Websites:</h2>${gamesContainerDiv}`;
+    for (let i = 0; i < PROJECTS.length; i++) {
+        if (PROJECTS[i].ProjectType == "Web") {
             // Log the tooltipText of the first project in the array
             //console.log(PROJECTS[i].tooltipText);
             FullString += TooltipDiv

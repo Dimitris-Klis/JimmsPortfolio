@@ -1,0 +1,24 @@
+The Portfolio:<br />
+Decided to document the portfolio itself in my portfolio.
+<br />
+<br />
+On the 22nd of October 2023, I decided to make a nice looking portfolio. I'd made one in the past, but it was pretty mediocre, so I wanted to go again.
+<br />
+<br />
+Since then, many changes and additions have been made (More games, different colors, different navigation bar, etc.)
+
+<br />
+<br />
+During the beginning of this site's lifespan, in the projects section every single image/description
+had to be added manually in the html file, resulting in an overwhelming wall of text.
+<br />
+<br />
+I decided to use javascript to help me deal with this issue.
+Now, every project only needs 3 things:
+<ul>
+	<li>A png file (project image)</li>
+	<li>A txt file (project description)</li>
+	<li>A single line of code in javascript which adds the project to the html file.</li>
+</ul>
+Finally, on September of 2024, by adding a couple lines of code to the javascript file,
+I made the tooltips position themselves dynamically to the left/right of the project (They were originally hardcoded as left or right tooltips).

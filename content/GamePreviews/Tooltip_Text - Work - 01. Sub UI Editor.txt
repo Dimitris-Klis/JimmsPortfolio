@@ -1,5 +1,5 @@
 Subscription UI Editor:<br />
-I've obtained some work experience at <a href="https://www.machapp.net/">MACHAPP Sotftware</a>, a mobile application company.
+I've obtained some work experience at <a href="https://www.machapp.net/">MACHAPP Software</a>, a mobile application company.
 <br />
 <br />
 At MACHAPP I made a simple UI Editor program which enabled them to modify the subscription page of a 
