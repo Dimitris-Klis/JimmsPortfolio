@@ -20,5 +20,8 @@ Now, every project only needs 3 things:
 	<li>A txt file (project description)</li>
 	<li>A single line of code in javascript which adds the project to the html file.</li>
 </ul>
-Finally, on September of 2024, by adding a couple lines of code to the javascript file,
+On September of 2024, by adding a couple lines of code to the javascript file,
 I made the tooltips position themselves dynamically to the left/right of the project (They were originally hardcoded as left or right tooltips).
+<br />
+<br />
+Also, I've finally added mobile support to the site!
