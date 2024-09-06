@@ -278,6 +278,7 @@ function FinishSetup() {
     games.innerHTML += FullString;
 }
 
+console.log(window.location);
 if (MobileOrTablet()) window.location.replace(`/JimmsPortfolio/mobile.html`);
 
 Setup();
