@@ -279,7 +279,7 @@ function FinishSetup() {
 }
 
 console.log(window.location.origin);
-if (MobileOrTablet()) window.location.replace(`/mobile.html`);
+if (MobileOrTablet()) window.location.replace(`/JimmsPortfolio/mobile.html`);
 
 Setup();
 
