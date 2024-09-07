@@ -89,6 +89,7 @@ async function Setup() {
         //Github Repos
         await addProject("My Localization System (for Unity)", "Repo", "Repo - 01. Localization", "Repo_Preview - 01. Localization.png");
         await addProject("My Achievement System (for Unity)", "Repo", "Repo - 02. Achievements", "Repo_Preview - 02. Achievements.png");
+        await addProject("Jimm's Prefs (for Unity)", "Repo", "Repo - 03. JimmsPrefs", "Repo_Preview - 03. JimmsPrefs.png");
 
         //Websites
         await addProject("The Portfolio", "Web", "Web - 01. The Portfolio", "Web_Preview - 01. The Portfolio.png");

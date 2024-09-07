@@ -1,0 +1,23 @@
+Jimm's Prefs:<br />
+Based on Unity's player prefs, this system works pretty much the same with the most notable difference being that it uses the .json format!
+<br />
+<br />
+I made this a day before the GMTK Game Jam of 2024 with the goal of making a versatile saving system.
+<br />
+<br />
+With this system you can store integers, floats, booleans, vector2s & vector3s, which are all very important if you want to store
+positions, music volume, toggles, etc.
+<br />
+<br />
+During the making of SNAB Remastered I experienced a bug where PlayerPrefs wouldn't load properly the values of a specific slider, so I had to hardcode a fix just for that one slider.
+I'm not sure if PlayerPrefs was responsible for said bug, but that was one of the reasons for making this custom system.
+<br />
+<br />
+Another reason for making this is: There are only 3 available variable types in the original system. PlayerPrefs is 14+ years old at this point so it's clear that the people
+at Unity haven't worked on PlayerPrefs much since its release. In my system, I decided to add some needed variable support.
+<br />
+<br />
+I'm very glad that I decided to do this project since it only took a day of coding and I can now use it with future projects!
+<br />
+<br />
+<a href="https://github.com/Dimitris-Klis/Jimms-Prefs" target="_blank">GitHub: Jimm's Prefs</a>
