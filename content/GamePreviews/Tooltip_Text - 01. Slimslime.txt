@@ -5,7 +5,7 @@ It's a small platformer with one unique mechanic: The player can change size.
 <br />
 <br />
 This was mostly made with the help of a couple game development discord servers and tutorials.
-The browser version of the game does not work.
+The browser version of the game used to not work, but now it magically works again!
 
 
 <br />

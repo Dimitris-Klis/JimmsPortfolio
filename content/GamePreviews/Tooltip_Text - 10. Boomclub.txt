@@ -3,7 +3,7 @@ Seven Nights At Boomclub (SNAB):
 SNAB is a Five Nights at Freddy's fan game, that I made to test my skills in developing a somewhat scary and stressful environment.
 <br />
 <br />
-This was also a great way to test my skills in developing unique mechanics. In that regard, I would say that I've succeeded.
+I would say that I've also succeeded in developing unique mechanics for the game, which is great since I tend to struggle when coming up with ideas.
 <br />
 <br />
 This idea started in my coding notebook and was brought to life with Unity. It was published to Game Jolt, since that's where fan games usually go.

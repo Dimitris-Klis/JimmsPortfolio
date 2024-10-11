@@ -56,8 +56,8 @@ async function addProject(_name, _projectType, _txtName, _Image) {
 async function Setup() {
     try {
         //Latest Project
-        await addProject("Typeytext", "Latest", "17. Typeytext", "Game_Preview - 17. Typeytext.png");
-        
+        await addProject("Flashpacked", "Latest", "18. Flashpacked", "Game_Preview - 18. Flashpacked.png");
+
 
         //Horror
         await addProject("Downfall", "Horror", "08. Downfall", "Game_Preview - 08. Downfall.png");
@@ -78,6 +78,7 @@ async function Setup() {
         await addProject("School Timetable", "Personal", "12. Timetable", "Game_Preview - 12. Timetable.png");
         await addProject("8-Bit Blackjack", "Personal", "13. Blackjack", "Game_Preview - 13. Blackjack.png");
         await addProject("V-Cam", "Personal", "16. V-Cam", "Game_Preview - 16. V-Cam.png");
+        await addProject("Typeytext", "Personal", "17. Typeytext", "Game_Preview - 17. Typeytext.png");
         //Work Experience
         await addProject("Subscription UI Editor", "Work", "Work - 01. Sub UI Editor", "Work_Preview - 01. Sub UI Editor.png");
 
@@ -93,7 +94,7 @@ async function Setup() {
         await addProject("Sawing Connection", "Buggy", "02. Sawing Connection", "Game_Preview - 02. Sawing Connection.png");
         await addProject("Framecam", "Buggy", "04. Framecam", "Game_Preview - 04. Framecam.png");
 
-        // Perform the next action
+        //Finish the Setup
         FinishSetup();
     }
     catch (error) {

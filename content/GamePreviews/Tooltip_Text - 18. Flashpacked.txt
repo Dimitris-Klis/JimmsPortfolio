@@ -1,0 +1,13 @@
+Flashpacked:
+<br />
+Flashpacked is a simple tool, meant for helping people study more efficiently.
+<br />
+<br />
+I made this tool because I wanted to try out new ways of memorizing for tests, but was dissatisfied by the current market of flashcard applications. So, I made my own!
+
+<br />
+<br />
+This project took about a week with many breaks, due to schoolwork and slight burnout.
+<br />
+<br />
+<a href="https://jimm560.itch.io/flashpacked" target="_blank">itch.io: Flashpacked</a>

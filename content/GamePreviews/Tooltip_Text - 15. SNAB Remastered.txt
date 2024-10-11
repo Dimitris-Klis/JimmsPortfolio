@@ -2,17 +2,19 @@ SNAB Remastered:<br />
 After a failed attempt at remastering the original project, I decided to start anew. The mechanics ended up quite polished and the audio is much nicer.
 <br />
 <br />
-I did all the music, sounds, UI, 3D models and programming by myself. I even voiced the voicelines.
+I did all the music, sounds, UI, 3D models and programming by myself. I even did the voicelines!
 <br />
 <br />
-I also playtested the game with a couple friends. I wanted to ensure that almost no bugs would be present in the final release.
+I also playtested the game with a couple friends. I wanted to ensure that no major bugs would be present in the final release.
+A few bugs made it in and they've yet to be fixed.
 
 <br />
 <br />
 I made a devlog for the game but it didn't really gain an audience.
 <br />
 <br />
-This is one of my most polished games. I am very happy with the results so I hope people actually find it. Two days after release I released v1.0.1 along with a mobile port of the game.
+This is one of my most polished games. I am very happy with the results so I hope people eventually come across it. 
+Two days after v1.0.0, I released v1.0.1 along with a mobile port of the game.
 <br />
 <br />
 <a href="https://jimm560.itch.io/snab-remastered" target="_blank">itch.io: SNAB Remastered</a><br />
