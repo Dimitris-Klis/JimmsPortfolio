@@ -61,7 +61,7 @@ async function addProject(_name, _projectType, _txtName, _Image) {
 async function Setup() {
     try {
         //Latest Project
-        await addProject("Flashpacked", "Latest", "18. Flashpacked", "Game_Preview - 18. Flashpacked.png");
+        await addProject("Weapons of War", "Latest", "19. Weapons of War", "Game_Preview - 19. Weapons of War.png");
         
 
         //Horror
@@ -76,6 +76,7 @@ async function Setup() {
         await addProject("Roll of Luck", "GameJams", "07. Roll of Luck", "Game_Preview - 07. Roll of Luck.png");
         await addProject("Quac's Breadfull Delivery", "GameJams", "11. Quac", "Game_Preview - 11. Quac.png");
         await addProject("Neverend Lands", "GameJams", "14. Neverend Lands", "Game_Preview - 14. Neverend Lands.png");
+        
 
         //Personal Projects
         await addProject("Pillow Battle", "Personal", "09. Pillow Battle", "Game_Preview - 09. Pillow Battle.png");
@@ -84,20 +85,27 @@ async function Setup() {
         await addProject("8-Bit Blackjack", "Personal", "13. Blackjack", "Game_Preview - 13. Blackjack.png");
         await addProject("V-Cam", "Personal", "16. V-Cam", "Game_Preview - 16. V-Cam.png");
         await addProject("Typeytext", "Personal", "17. Typeytext", "Game_Preview - 17. Typeytext.png");
+        await addProject("Flashpacked", "Personal", "18. Flashpacked", "Game_Preview - 18. Flashpacked.png");
+
+
         //Work Experience
         await addProject("Subscription UI Editor", "Work", "Work - 01. Sub UI Editor", "Work_Preview - 01. Sub UI Editor.png");
+
 
         //Github Repos
         await addProject("My Localization System (for Unity)", "Repo", "Repo - 01. Localization", "Repo_Preview - 01. Localization.png");
         await addProject("My Achievement System (for Unity)", "Repo", "Repo - 02. Achievements", "Repo_Preview - 02. Achievements.png");
         await addProject("Jimm's Prefs (for Unity)", "Repo", "Repo - 03. JimmsPrefs", "Repo_Preview - 03. JimmsPrefs.png");
 
+
         //Websites
         await addProject("The Portfolio", "Web", "Web - 01. The Portfolio", "Web_Preview - 01. The Portfolio.png");
+
 
         //Buggy Messes
         await addProject("Sawing Connection", "Buggy", "02. Sawing Connection", "Game_Preview - 02. Sawing Connection.png");
         await addProject("Framecam", "Buggy", "04. Framecam", "Game_Preview - 04. Framecam.png");
+
 
         //Finish the Setup
         FinishSetup();

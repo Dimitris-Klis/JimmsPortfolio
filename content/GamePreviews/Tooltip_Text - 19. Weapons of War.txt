@@ -1,0 +1,15 @@
+Weapons of War
+<br />
+Made this for the 16<sup>th</sup> pirate software Game Jam.
+<br />
+<br />
+This game was originally meant to be based on Cannon Fodder, an old amiga game. Weapons of War was meant
+to have multiple levels, vehicles, enemy turrets, and a couple unique enemies.
+<br />
+<br />
+A lot of stuff got in the way though, so I ended up with a buggy score-based game. At least it's fun.
+Worst of all, I didn't finish in time, so I got disqualified. The judges were kind enough to
+leave feedback though!
+<br />
+<br />
+<a href="https://jimm560.itch.io/weapons-of-war-jam" target="_blank">itch.io: Weapons of War</a>

@@ -1,6 +1,6 @@
 Boat Duty:
 <br />
-Boat Duty was made during the 2nd year of Middle School, for a Pancyprian competition called
+Boat Duty was made during the 2<sup>nd</sup> year of Middle School, for a Pancyprian competition called
 "Logipaignio" or "Game Development Challenge", which lasted for about half a year.
 My computer science teacher was the one who found the competition. This competition was split into 3 age groups:
 Middle School Students, High School Students & University Students.

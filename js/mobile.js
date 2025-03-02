@@ -56,13 +56,14 @@ async function addProject(_name, _projectType, _txtName, _Image) {
 async function Setup() {
     try {
         //Latest Project
-        await addProject("Flashpacked", "Latest", "18. Flashpacked", "Game_Preview - 18. Flashpacked.png");
+        await addProject("Weapons of War", "Latest", "19. Weapons of War", "Game_Preview - 19. Weapons of War.png");
 
 
         //Horror
         await addProject("Downfall", "Horror", "08. Downfall", "Game_Preview - 08. Downfall.png");
         await addProject("SNAB Classic", "Horror", "10. Boomclub", "Game_Preview - 10. Boomclub.png");
         await addProject("SNAB", "Horror", "15. SNAB Remastered", "Game_Preview - 15. SNAB Remastered.png");
+
 
         //Game Jams, Competitions
         await addProject("Slimslime", "GameJams", "01. Slimslime", "Game_Preview - 01. Slimslime.png");
@@ -71,6 +72,8 @@ async function Setup() {
         await addProject("Roll of Luck", "GameJams", "07. Roll of Luck", "Game_Preview - 07. Roll of Luck.png");
         await addProject("Quac's Breadfull Delivery", "GameJams", "11. Quac", "Game_Preview - 11. Quac.png");
         await addProject("Neverend Lands", "GameJams", "14. Neverend Lands", "Game_Preview - 14. Neverend Lands.png");
+        await addProject("Weapons of War", "GameJams", "19. Weapons of War", "Game_Preview - 19. Weapons of War.png");
+
 
         //Personal Projects
         await addProject("Pillow Battle", "Personal", "09. Pillow Battle", "Game_Preview - 09. Pillow Battle.png");
@@ -79,20 +82,27 @@ async function Setup() {
         await addProject("8-Bit Blackjack", "Personal", "13. Blackjack", "Game_Preview - 13. Blackjack.png");
         await addProject("V-Cam", "Personal", "16. V-Cam", "Game_Preview - 16. V-Cam.png");
         await addProject("Typeytext", "Personal", "17. Typeytext", "Game_Preview - 17. Typeytext.png");
+        await addProject("Flashpacked", "Personal", "18. Flashpacked", "Game_Preview - 18. Flashpacked.png");
+
+
         //Work Experience
         await addProject("Subscription UI Editor", "Work", "Work - 01. Sub UI Editor", "Work_Preview - 01. Sub UI Editor.png");
+
 
         //Github Repos
         await addProject("My Localization System (for Unity)", "Repo", "Repo - 01. Localization", "Repo_Preview - 01. Localization.png");
         await addProject("My Achievement System (for Unity)", "Repo", "Repo - 02. Achievements", "Repo_Preview - 02. Achievements.png");
         await addProject("Jimm's Prefs (for Unity)", "Repo", "Repo - 03. JimmsPrefs", "Repo_Preview - 03. JimmsPrefs.png");
 
+
         //Websites
         await addProject("The Portfolio", "Web", "Web - 01. The Portfolio", "Web_Preview - 01. The Portfolio.png");
+
 
         //Buggy Messes
         await addProject("Sawing Connection", "Buggy", "02. Sawing Connection", "Game_Preview - 02. Sawing Connection.png");
         await addProject("Framecam", "Buggy", "04. Framecam", "Game_Preview - 04. Framecam.png");
+
 
         //Finish the Setup
         FinishSetup();
