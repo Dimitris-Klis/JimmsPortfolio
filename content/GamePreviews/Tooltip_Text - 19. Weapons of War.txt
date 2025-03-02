@@ -7,7 +7,9 @@ This game was originally meant to be based on Cannon Fodder, an old amiga game. 
 to have multiple levels, vehicles, enemy turrets, and a couple unique enemies.
 <br />
 <br />
-A lot of stuff got in the way though, so I ended up with a buggy score-based game. At least it's fun.
+A lot of stuff got in the way though, so I ended up with a buggy, score-based game. At least, I managed to make it fun.
+<br />
+<br />
 Worst of all, I didn't finish in time, so I got disqualified. The judges were kind enough to
 leave feedback though!
 <br />
